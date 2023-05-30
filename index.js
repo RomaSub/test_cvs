@@ -3,6 +3,7 @@ import _ from 'lodash';
 export default function solution(content){
   // BEGIN
 
+  
   const data = content.split('\n').slice(1).map((el) => el.split(','));
   // console.log(`Всего пассажиров ${data.length}`)  
 
